@@ -1,0 +1,13 @@
+// Mem file initialization records.
+//
+// SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+// Vivado v2016.4 (64-bit)
+// Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+// Created on Thursday June 27, 2019 - 05:08:42 pm, from:
+//
+//     Map file     - C:\Users\berkaythefair\Documents\VHDL2\vc707_bist.srcs\sources_1\bd\system\system.bmm
+//     Data file(s) - c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_microblaze_0_0/data/mb_bootloop_le.elf
+//
+// Address space 'system_i_microblaze_0.system_i_axi_bram_ctrl_0_bram_1M_1_ADDR_SPACE', bit lane [31:0].
+//
+// Bus width = 32 bits, number of bus blocks = 1.

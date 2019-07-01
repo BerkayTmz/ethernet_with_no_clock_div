@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Jun 28 11:30:49 2019
+# Process ID: 2484
+# Current directory: C:/Users/aberk/Documents/VHDL2/vc707_bist.runs/impl_2
+# Command line: vivado.exe -log system_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source system_wrapper.tcl -notrace
+# Log file: C:/Users/aberk/Documents/VHDL2/vc707_bist.runs/impl_2/system_wrapper.vdi
+# Journal file: C:/Users/aberk/Documents/VHDL2/vc707_bist.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source system_wrapper.tcl -notrace

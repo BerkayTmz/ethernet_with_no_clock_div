@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 13 16:40:32 2019
+# Process ID: 5072
+# Current directory: C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7904 C:\Users\umram-bt\Documents\rdf0195-vc707-bist-c-2015-1\vc707_bist\vc707_bist.xpr
+# Log file: C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vivado.log
+# Journal file: C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.xpr
+set_property flow {Vivado Synthesis 2016} [get_runs synth_1]
+create_run synth_2 -flow {Vivado Synthesis 2016} -strategy {Vivado Synthesis Defaults}
+current_run [get_runs synth_2]
+set_property target_language VHDL [current_project]
+make_wrapper -files [get_files C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd] -top
+add_files -norecurse C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
+open_bd_design {C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd}
+launch_sdk -workspace C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.sdk -hwspec C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.sdk/system_wrapper.hdf
+remove_files  C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+generate_target all [get_files  C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd] -directory C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.ip_user_files -ipstatic_source_dir C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.cache/compile_simlib/modelsim} {questa=C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.cache/compile_simlib/questa} {riviera=C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.cache/compile_simlib/riviera} {activehdl=C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+write_hwdef -force  -file C:/Users/umram-bt/Desktop/exports/system_wrapper.hdf
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+wait_on_run impl_2
+open_run synth_2 -name synth_2

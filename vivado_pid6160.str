@@ -1,0 +1,344 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 6160
+
+Current time: 	6/13/19 11:09:49 AM MSK
+Time zone: 	Moscow Standard Time (Europe/Moscow)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	umram-bt
+User home directory: C:/Users/umram-bt
+User working directory: C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist
+User country: 	GB
+User language: 	en
+User locale: 	en_GB
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/umram-bt/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/umram-bt/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	164 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 409 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 33 MB (+32399kb) [00:00:13]
+// [Engine Memory]: 385 MB (+251927kb) [00:00:13]
+// TclEventType: PROJECT_OPEN_DIALOG
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\umram-bt\Documents\rdf0195-vc707-bist-c-2015-1\vc707_bist\vc707_bist.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// [GUI Memory]: 41 MB (+6378kb) [00:00:17]
+// [Engine Memory]: 416 MB (+12850kb) [00:00:17]
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 417 MB. GUI used memory: 27 MB. Current time: 6/13/19 11:09:51 AM MSK
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 458 MB (+22224kb) [00:00:32]
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 458 MB. GUI used memory: 26 MB. Current time: 6/13/19 11:10:06 AM MSK
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 530 MB (+51400kb) [00:00:42]
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 557 MB. GUI used memory: 26 MB. Current time: 6/13/19 11:10:26 AM MSK
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 46 MB (+2553kb) [00:00:58]
+// [Engine Memory]: 580 MB (+23952kb) [00:00:58]
+// [GUI Memory]: 53 MB (+5103kb) [00:00:59]
+// [Engine Memory]: 626 MB (+18095kb) [00:01:00]
+// [GUI Memory]: 61 MB (+6053kb) [00:01:00]
+// [Engine Memory]: 667 MB (+10185kb) [00:01:01]
+// Tcl Message: open_project C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/gtxe2_top_v1_00_a'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// Project name: vc707_bist; location: C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist; part: xc7vx485tffg1761-2
+// [GUI Memory]: 65 MB (+304kb) [00:01:04]
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:49 . Memory (MB): peak = 907.145 ; gain = 300.781 
+// [Engine Memory]: 702 MB (+2250kb) [00:01:04]
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 49 MB. Current time: 6/13/19 11:10:41 AM MSK
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_LAUNCH_HARDWARE, "Launch SDK"); // ab:JMenuItem (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_LAUNCH_HARDWARE
+// aa:q (cd:JFrame): Launch SDK: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, aa:q)
+dismissDialog("Launch SDK"); // aa:q (cd:JFrame)
+// Tcl Message: launch_sdk -workspace C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.sdk -hwspec C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.sdk/system_wrapper.hdf 
+// Tcl Message: INFO: [Vivado 12-393] Launching SDK... INFO: [Vivado 12-417] Running xsdk -workspace C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.sdk -hwspec C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.sdk/system_wrapper.hdf INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages. 
+// [GUI Memory]: 68 MB (+390kb) [00:02:17]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 72 MB (+199kb) [00:12:34]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 76 MB (+168kb) [00:20:04]
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// [GUI Memory]: 79 MB (+85kb) [00:26:05]
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 48 MB. Current time: 6/13/19 11:40:42 AM MSK
+// [GUI Memory]: 84 MB (+725kb) [00:38:00]
+// [GUI Memory]: 89 MB (+567kb) [00:49:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 45 MB. Current time: 6/13/19 12:10:42 PM MSK
+// [GUI Memory]: 94 MB (+513kb) [01:19:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 44 MB. Current time: 6/13/19 12:40:43 PM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 45 MB. Current time: 6/13/19 1:10:43 PM MSK
+// [GUI Memory]: 99 MB (+800kb) [02:11:44]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 44 MB. Current time: 6/13/19 1:40:43 PM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 44 MB. Current time: 6/13/19 2:10:43 PM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 44 MB. Current time: 6/13/19 2:40:44 PM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 44 MB. Current time: 6/13/19 3:10:44 PM MSK
+// Elapsed time: 15467 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+// PAPropertyPanels.initPanels (system.bd) elapsed time: 0.5s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i - system (system.bd)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i - system (system.bd)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// bt:g (cd:JFrame):  Open Block Design : addNotify
+// Tcl Message: open_bd_design {C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd} 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Adding cell -- xilinx.com:user:gtxe2_top:1.0 - gtxe2_top_0 
+// Tcl Message: Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// PAPropertyPanels.initPanels (system.bd) elapsed time: 0.2s
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:18 . Memory (MB): peak = 949.906 ; gain = 22.742 
+// Elapsed time: 18 seconds
+dismissDialog("Open Block Design"); // bt:g (cd:JFrame)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "System_zoom_fit"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "System_zoom_in"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 56 MB. Current time: 6/13/19 3:40:45 PM MSK
+// HMemoryUtils.trashcanNow. Engine heap size: 715 MB. GUI used memory: 52 MB. Current time: 6/13/19 4:10:45 PM MSK
+// PAPropertyPanels.initPanels (rst_mig_7series_0_100M_peripheral_aresetn1) elapsed time: 0.2s
+// Elapsed time: 3815 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// Elapsed time: 36 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v)]", 1); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Configuration Files]", 4); // y:i (D:JPanel, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_wrapper.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l:ak (au:e, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_wrapper.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "s_axi", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "s_axi"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "s_axi"); // l:ak (au:e, cd:JFrame)
+// Elapsed time: 32 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ram"); // l:ak (au:e, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "bram", true); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "bram"); // l:ak (au:e, cd:JFrame)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "bram"); // l:ak (au:e, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, (String) null); // l:ak (au:e, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_wrapper.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "ena"); // l:ak (au:e, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+// Elapsed time: 55 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "system_wrapper.v", 2); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper (system_wrapper.v), system_i - system (system.bd)]", 2, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_CREATE_TOP_HDL, "Create HDL Wrapper..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CREATE_TOP_HDL
+// a:q (cd:JFrame): Create HDL Wrapper: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, a:q)
+// 'W' command handler elapsed time: 7 seconds
+dismissDialog("Create HDL Wrapper"); // a:q (cd:JFrame)
+// Tcl Message: make_wrapper -files [get_files C:/Users/umram-bt/Documents/rdf0195-vc707-bist-c-2015-1/vc707_bist/vc707_bist.srcs/sources_1/bd/system/system.bd] -top 
+// Elapsed time: 80 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Project Settings]", 1, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROJECT_SETTINGS
+// Project Settings: addNotify
+// Elapsed time: 17 seconds
+selectComboBox(PAResourceOtoP.ProjectSettingsGeneralPage_TARGET_LANGUAGE, "VHDL", 0); // e:JComboBox (JPanel:JComponent, i:aA)
+selectButton("APPLY", "Apply"); // JButton:AbstractButton (ButtonPanel:JPanel, i:aA)
+// y:aO (cd:JFrame): Create New Run: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// b:q (cd:JFrame): Create Run: addNotify
+dismissDialog("Create New Run"); // y:aO (cd:JFrame)

@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 27 15:36:41 2019
+# Process ID: 5600
+# Current directory: C:/Users/berkaythefair/Documents/VHDL2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9108 C:\Users\berkaythefair\Documents\VHDL2\vc707_bist.xpr
+# Log file: C:/Users/berkaythefair/Documents/VHDL2/vivado.log
+# Journal file: C:/Users/berkaythefair/Documents/VHDL2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.xpr
+open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd}
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+wait_on_run impl_2
+open_run synth_1 -name synth_1
+open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd}
+reset_run synth_2
+startgroup
+set_property -dict [list CONFIG.NUM_MI {14}] [get_bd_cells microblaze_0_axi_periph]
+delete_bd_objs [get_bd_intf_nets microblaze_0_axi_periph_M14_AXI]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Cached)" Clk "Auto" }  [get_bd_intf_pins axi_emc_0/S_AXI_MEM]
+validate_bd_design
+assign_bd_address
+validate_bd_design
+save_bd_design
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+wait_on_run impl_2
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+reset_run synth_2 -prev_step 
+reset_run synth_1
+delete_runs "synth_1"
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+reset_run synth_2
+reset_target all [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects  [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] -sync -no_script -force -quiet
+generate_target all [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd]
+export_ip_user_files -of_objects [get_files C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] -directory C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.ip_user_files -ipstatic_source_dir C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.cache/compile_simlib/modelsim} {questa=C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.cache/compile_simlib/questa} {riviera=C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.cache/compile_simlib/riviera} {activehdl=C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2
+open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd}
+open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd}
+validate_bd_design -force
+save_bd_design
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+wait_on_run synth_2

@@ -1,0 +1,2380 @@
+/*
+
+Vivado v2016.4 (64-bit)
+SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+Process ID: 5600
+
+Current time: 	6/27/19 3:37:10 PM EEST
+Time zone: 	Eastern European Time (Asia/Istanbul)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.4/tps/win64/jre
+
+User name: 	berkaythefair
+User home directory: C:/Users/berkaythefair
+User working directory: C:/Users/berkaythefair/Documents/VHDL2
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI base root directory: C:/Xilinx/Vivado
+RDI data directory: C:/Xilinx/Vivado/2016.4/data
+RDI bin directory: C:/Xilinx/Vivado/2016.4/bin
+
+Vivado preferences path: C:/Users/berkaythefair/AppData/Roaming/Xilinx/Vivado/2016.4/vivado.ini
+Vivado layouts directory: C:/Users/berkaythefair/AppData/Roaming/Xilinx/Vivado/2016.4/layouts
+
+GUI allocated memory:	169 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 449 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 54 MB (+54519kb) [00:00:15]
+// [Engine Memory]: 387 MB (+254589kb) [00:00:15]
+// bt:g (cd:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\berkaythefair\Documents\VHDL2\vc707_bist.xpr. Version: Vivado v2016.4 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// [Engine Memory]: 443 MB (+38550kb) [00:00:17]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 461 MB. GUI used memory: 26 MB. Current time: 6/27/19 3:37:12 PM EEST
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 484 MB (+19017kb) [00:00:22]
+// TclEventType: IP_LOCK_CHANGE
+// [Engine Memory]: 550 MB (+43654kb) [00:00:27]
+// TclEventType: IP_LOCK_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 589 MB. GUI used memory: 25 MB. Current time: 6/27/19 3:37:27 PM EEST
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 622 MB (+47075kb) [00:00:37]
+// [Engine Memory]: 673 MB (+21095kb) [00:00:37]
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: open_project C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/berkaythefair/Documents/VHDL2/gtxe2_top_v1_00_a'. INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'. 
+// TclEventType: DG_GRAPH_STALE
+// Project name: vc707_bist; location: C:/Users/berkaythefair/Documents/VHDL2; part: xc7vx485tffg1761-2
+// Tcl Message: open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 915.844 ; gain = 284.238 
+dismissDialog("Open Project"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 127 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd)]", 1); // y:i (D:JPanel, cd:JFrame)
+// PAPropertyPanels.initPanels (system.bd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// bt:g (cd:JFrame):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd} 
+// TclEventType: RSB_PROPERTY_CHANGE
+// Tcl Message: Adding cell -- xilinx.com:user:gtxe2_top:1.0 - gtxe2_top_0 Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0 
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 716 MB. GUI used memory: 34 MB. Current time: 6/27/19 3:39:47 PM EEST
+// TclEventType: RSB_PROPERTY_CHANGE
+// [Engine Memory]: 717 MB (+10376kb) [00:02:55]
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// [GUI Memory]: 59 MB (+2382kb) [00:03:02]
+// [GUI Memory]: 64 MB (+1448kb) [00:03:03]
+// [Engine Memory]: 760 MB (+7370kb) [00:03:04]
+// [GUI Memory]: 73 MB (+5902kb) [00:03:04]
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 988.215 ; gain = 72.371 
+// Elapsed time: 14 seconds
+dismissDialog("Open Block Design"); // bt:g (cd:JFrame)
+// [GUI Memory]: 76 MB (+263kb) [00:03:24]
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): No Implementation Results Available: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("No Implementation Results Available"); // y:aO (cd:JFrame)
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream -jobs 4 
+// TclEventType: RUN_LAUNCH
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 27 15:40:31 2019] Launched synth_2... Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log [Thu Jun 27 15:40:31 2019] Launched impl_2... Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/impl_2/runme.log 
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// [Engine Memory]: 798 MB (+296kb) [00:04:34]
+// Elapsed time: 130 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd)]", 2); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd)]", 2); // y:i (D:JPanel, cd:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Configuration Files]", 3); // y:i (D:JPanel, cd:JFrame)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Configuration Files]", 3); // y:i (D:JPanel, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 38960 ; 41268 ; 320 ; 0 ; 0.0 ; Thu Jun 27 13:56:45 EEST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.6s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 38960 ; 41268 ; 320 ; 0 ; 0.0 ; Thu Jun 27 13:56:45 EEST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 834 MB. GUI used memory: 59 MB. Current time: 6/27/19 3:42:53 PM EEST
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 38960 ; 41268 ; 320 ; 0 ; 0.0 ; Thu Jun 27 13:56:45 EEST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceEtoH.ExpRunMenu_OPEN_RUN, "Open Run"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// ar:r (cd:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(PAResourceQtoS.StaleRunDialog_OPEN_DESIGN, "Open Design"); // a:JButton (JPanel:JComponent, ar:r)
+// bt:g (cd:JFrame):  Open Synthesized Design : addNotify
+dismissDialog("Synthesis is Out-of-date"); // ar:r (cd:JFrame)
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7vx485tffg1761-2 
+// [Engine Memory]: 842 MB (+4490kb) [00:06:06]
+// [Engine Memory]: 961 MB (+80361kb) [00:06:11]
+// [Engine Memory]: 1,049 MB (+41407kb) [00:06:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,079 MB. GUI used memory: 59 MB. Current time: 6/27/19 3:43:12 PM EEST
+// [Engine Memory]: 1,233 MB (+138237kb) [00:06:21]
+// [Engine Memory]: 1,310 MB (+16054kb) [00:06:31]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,337 MB. GUI used memory: 59 MB. Current time: 6/27/19 3:43:27 PM EEST
+// [Engine Memory]: 1,441 MB (+68571kb) [00:06:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,491 MB. GUI used memory: 59 MB. Current time: 6/27/19 3:43:42 PM EEST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// [Engine Memory]: 1,595 MB (+86206kb) [00:07:01]
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// [GUI Memory]: 81 MB (+530kb) [00:07:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,013 MB. GUI used memory: 60 MB. Current time: 6/27/19 3:44:27 PM EEST
+// [Engine Memory]: 2,038 MB (+381197kb) [00:07:35]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// HMemoryUtils.trashcanNow. Engine heap size: 2,172 MB. GUI used memory: 60 MB. Current time: 6/27/19 3:44:42 PM EEST
+// [Engine Memory]: 2,172 MB (+32966kb) [00:07:50]
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 2,176 MB. GUI used memory: 61 MB. Current time: 6/27/19 3:45:01 PM EEST
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2016.4/data/./parts/xilinx/virtex7/devint/virtex7/xc7vx485t/xc7vx485t.xgd; ZipEntry: xc7vx485t_detail.xgd elapsed time: 1s
+// [GUI Memory]: 90 MB (+5071kb) [00:08:11]
+// [GUI Memory]: 100 MB (+5849kb) [00:08:13]
+// [GUI Memory]: 105 MB (+407kb) [00:08:13]
+// [GUI Memory]: 114 MB (+3125kb) [00:08:14]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 4.6s
+// [GUI Memory]: 122 MB (+2453kb) [00:08:16]
+// Device: addNotify
+// DeviceView Instantiated
+// [GUI Memory]: 128 MB (+672kb) [00:08:19]
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.3s
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 1544 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2016.4 INFO: [Device 21-403] Loading part xc7vx485tffg1761-2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc:50] INFO: [Timing 38-2] Deriving generated clocks [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc:50] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:42 ; elapsed = 00:00:39 . Memory (MB): peak = 2369.820 ; gain = 622.375 
+// Tcl Message: INFO: [Timing 38-2] Deriving generated clocks [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_refclk_0/system_axi_ethernet_0_refclk_0.xdc:57] 
+// Tcl Message: get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2388.949 ; gain = 19.063 
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Generating merged BMM file for the design top 'system_wrapper'... 
+// RouteApi::initDelayMediator elapsed time: 1.2s
+// Tcl Message: open_run: Time (s): cpu = 00:02:29 ; elapsed = 00:02:15 . Memory (MB): peak = 2393.164 ; gain = 1386.328 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// ExpRunCommands.openSynthResults elapsed time: 137.5s
+// Device view-level: 0.0
+// [GUI Memory]: 144 MB (+9794kb) [00:08:23]
+// [GUI Memory]: 152 MB (+482kb) [00:08:23]
+// M:a (cd:JFrame): Critical Messages: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 2,275 MB. GUI used memory: 114 MB. Current time: 6/27/19 3:45:19 PM EEST
+// Elapsed time: 140 seconds
+dismissDialog("Open Synthesized Design"); // bt:g (cd:JFrame)
+// Elapsed time: 221 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, M:a)
+dismissDialog("Critical Messages"); // M:a (cd:JFrame)
+// Elapsed time: 180 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// Elapsed time: 21 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aA:FrameContainer (ContainerContainer:JideSplitPane, cd:JFrame)
+// [GUI Memory]: 160 MB (+1120kb) [00:15:31]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd)]", 1, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Configuration Files]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Configuration Files]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd)]", 1); // y:i (D:JPanel, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd)]", 2, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd)]", 2, true, false, false, false, false, true); // y:i (D:JPanel, cd:JFrame) - Double Click - Node
+// bt:g (cd:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd} 
+dismissDialog("Open Block Design"); // bt:g (cd:JFrame)
+// [Engine Memory]: 2,283 MB (+2663kb) [00:15:40]
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// p:g (cd:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+selectComboBox("Number of Master Interfaces (NUM_MI)", "14", 13); // bE:e (C:JPanel, p:g)
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+// Elapsed time: 80 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_2 ; constrs_1 ; Queued... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; 00:00:00 ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7vx485tffg1761-2 ; Default settings for Implementation.", 3, "Queued...", 2, false); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 15:40:36 EEST 2019 ; 00:12:30 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 2, "Running synth_design...", 2, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,301 MB. GUI used memory: 125 MB. Current time: 6/27/19 3:55:13 PM EEST
+// [GUI Memory]: 170 MB (+1533kb) [00:23:54]
+// [GUI Memory]: 182 MB (+3173kb) [00:26:29]
+// [GUI Memory]: 192 MB (+1042kb) [00:27:49]
+// [GUI Memory]: 202 MB (+873kb) [00:31:16]
+// [GUI Memory]: 213 MB (+1358kb) [00:36:14]
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (J:B Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 226 MB (+2161kb) [00:36:38]
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 12000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 13000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 14000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 15000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 16000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 17000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 18000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 19000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// Elapsed time: 1480 seconds
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (p:JPanel, cd:JFrame)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// Elapsed time: 11 seconds
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_2 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (synth_2) elapsed time: 0.2s
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 249, 157, 749, 262, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_ORIENTATION, "Orientation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderMenu_IP_DOCUMENTATION, "IP Documentation"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// L:bt (cd:JFrame):  Re-customize IP : addNotify
+// p:g (cd:JFrame): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // L:bt (cd:JFrame)
+selectComboBox("Number of Master Interfaces (NUM_MI)", "14", 13); // bE:e (C:JPanel, p:g)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, p:g)
+dismissDialog("Re-customize IP"); // p:g (cd:JFrame)
+// Tcl Command: 'set_property -dict [list CONFIG.NUM_MI {14}] [get_bd_cells microblaze_0_axi_periph]'
+// TclEventType: RSB_SCRIPT_TASK
+// p:g (cd:JFrame): Re-customize IP: addNotify
+// bt:g (p:g):  Customize IP : addNotify
+// Tcl Message: startgroup 
+// Tcl Message: set_property -dict [list CONFIG.NUM_MI {14}] [get_bd_cells microblaze_0_axi_periph] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: delete_bd_objs [get_bd_intf_nets microblaze_0_axi_periph_M14_AXI] 
+// Tcl Message: endgroup 
+dismissDialog("Customize IP"); // bt:g (p:g)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(PAResourceQtoS.RSBApplyAutomationBar_RUN_CONNECTION_AUTOMATION, "Run Connection Automation"); // h:k (JPanel:JComponent, cd:JFrame)
+// s:q (cd:JFrame): Run Connection Automation: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, s:q)
+dismissDialog("Run Connection Automation"); // s:q (cd:JFrame)
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Cached)" Clk "Auto" }  [get_bd_intf_pins axi_emc_0/S_AXI_MEM] 
+// bt:g (cd:JFrame):  Run Connection Automation : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: </axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </axi_ethernet_0_dma/Data_MM2S> at <0x60000000 [ 32M ]> </axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </axi_ethernet_0_dma/Data_S2MM> at <0x60000000 [ 32M ]> </axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </axi_ethernet_0_dma/Data_SG> at <0x60000000 [ 32M ]> </axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </microblaze_0/Data> at <0x60000000 [ 32M ]> </axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </microblaze_0/Instruction> at <0x60000000 [ 32M ]> 
+dismissDialog("Run Connection Automation"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 27 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_OUT, "System_zoom_out"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_OUT
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "System_zoom_fit"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// Elapsed time: 24 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 86, 61, 749, 262, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "Validate Design"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// Tcl Message: validate_bd_design 
+// bt:g (cd:JFrame):  Validate Design : addNotify
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. 
+// Tcl Message: INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x60000000 and high address C_DCACHE_HIGHADDR to 0x61FFFFFF. 
+// Tcl Message: INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x60000000 and high address C_ICACHE_HIGHADDR to 0x61FFFFFF. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2621.973 ; gain = 35.293 
+// dD:a (cd:JFrame): Critical Messages: addNotify
+// Elapsed time: 27 seconds
+dismissDialog("Validate Design"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f:a (JPanel:JComponent, dD:a)
+dismissDialog("Critical Messages"); // dD:a (cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Address Editor", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+selectButton(PAResourceCommand.PACommandNames_AUTO_ASSIGN_ADDRESS, "Address Editor_auto_assign_address_rsb"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_ASSIGN_ADDRESS
+// Tcl Command: 'assign_bd_address'
+// TclEventType: RSB_SCRIPT_TASK
+// bt:g (cd:JFrame):  Auto Assign Address : addNotify
+// Tcl Message: assign_bd_address 
+// TclEventType: RSB_SCRIPT_TASK
+dismissDialog("Auto Assign Address"); // bt:g (cd:JFrame)
+selectButton("PAResourceAtoD.AutoAssignAddress_AUTOMATIC_ADDRESS_ASSIGNMENT_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectTreeTableHeader(PAResourceAtoD.AddressTreeTablePanel_ADDRESS_TREE_TABLE, "Cell", 0); // c:ab (JViewport:JComponent, cd:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "System", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cd:JFrame)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // K:H (Workspace:JPanel, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 582, 228, 1115, 542, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, cd:JFrame)
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 592, 320, 1115, 542, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, Popup:JWindow)
+selectMenu(PAResourceQtoS.SystemBuilderView_EXPAND_COLLAPSE, "Expand/Collapse"); // Y:JMenu (ah:JPopupMenu, Popup:JWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "Validate Design"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// Tcl Command: 'validate_bd_design'
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// bt:g (cd:JFrame):  Validate Design : addNotify
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. 
+// Tcl Message: INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x60000000 and high address C_DCACHE_HIGHADDR to 0x61FFFFFF. 
+// Tcl Message: INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x60000000 and high address C_ICACHE_HIGHADDR to 0x61FFFFFF. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2688.652 ; gain = 0.000 
+// Elapsed time: 22 seconds
+dismissDialog("Validate Design"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 36, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ai:r (cd:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ai:r)
+// bt:g (cd:JFrame):  Save Constraints : addNotify
+// TclEventType: RSB_SAVE_DIAGRAM
+dismissDialog("Save Project"); // ai:r (cd:JFrame)
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd>  Wrote  : <C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ui/bd_c954508f.ui>  
+// f:q (cd:JFrame): Launch Runs: addNotify
+dismissDialog("Save Constraints"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, f:q)
+// 'cn' command handler elapsed time: 10 seconds
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 36, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// y:aO (cd:JFrame): No Implementation Results Available: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+// 'cn' command handler elapsed time: 3 seconds
+dismissDialog("No Implementation Results Available"); // y:aO (cd:JFrame)
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// bt:g (cd:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_2 -to_step write_bitstream -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// [GUI Memory]: 238 MB (+121kb) [00:46:04]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0.hwh 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: ARCHITECTURE : virtex7 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: PART : xc7vx485tffg1761-2 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: SPEEDGRADE : -2 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: Standard : 1000BASEX 
+// Tcl Message: Generated Block Design Tcl file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0_bd.tcl Generated Hardware Definition File c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hdl/system_axi_ethernet_0_0.hwdef 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 . 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,301 MB. GUI used memory: 179 MB. Current time: 6/27/19 4:25:15 PM EEST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block bram_test_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_ds . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/auto_cc . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m02_couplers/auto_ds . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system.hwh 
+// Tcl Message: INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] test_ip: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide. INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] test_ip: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl Generated Hardware Definition File C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.hwdef 
+// TclEventType: RUN_LAUNCH
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 27 16:30:59 2019] Launched synth_2... Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log [Thu Jun 27 16:30:59 2019] Launched impl_2... Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/impl_2/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:20 ; elapsed = 00:08:04 . Memory (MB): peak = 2803.258 ; gain = 114.605 
+// Elapsed time: 484 seconds
+dismissDialog("Generate Bitstream"); // bt:g (cd:JFrame)
+// Elapsed time: 767 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // as:DockableFrame
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:31:05 EEST 2019 ; 00:10:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 2, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 38960 ; 41268 ; 320 ; 0 ; 0.0 ; Thu Jun 27 13:56:45 EEST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+// ExpRunPropPanels.initMontitorPanel elapsed time: 0.6s
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.7s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:31:05 EEST 2019 ; 00:10:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 2, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 38960 ; 41268 ; 320 ; 0 ; 0.0 ; Thu Jun 27 13:56:45 EEST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ; 38960 ; 41268 ; 320 ; 0 ; 0.0 ; Thu Jun 27 13:56:45 EEST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceEtoH.ExpRunMenu_LAUNCH_RUNS, "Launch Runs..."); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// f:q (cd:JFrame): Launch Runs: addNotify
+// y:aO (f:q): Reset Run: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, y:aO)
+// bt:g (f:q):  Starting Design Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Reset Run"); // y:aO (f:q)
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 0.2s
+// Tcl Message: reset_run synth_1 
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Thu Jun 27 16:44:10 2019] Launched synth_1... Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (f:q)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:31:05 EEST 2019 ; 00:10:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 2, "constrs_1", 1, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:31:05 EEST 2019 ; 00:10:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 2, "constrs_1", 1, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RESET_RUN_TO_PREVIOUS_STEP, "Reset to Previous Step: synth_design"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// bt:g (cd:JFrame):  Reset to Previous Step : addNotify
+selectButton("PAResourceEtoH.ExpRunMenu_OK_TO_RESET_TO_PREVIOUS_STEP_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_2 -prev_step  
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Reset to Previous Step"); // bt:g (cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:44:17 EEST 2019 ; 00:00:00 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+// Elapsed time: 10 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // g:JideTabbedPane (L:aE, cd:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 2); // g:JideTabbedPane (L:aE, cd:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Compile Order", 3); // g:JideTabbedPane (L:aE, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:44:17 EEST 2019 ; 00:00:27 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:44:17 EEST 2019 ; 00:00:27 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:44:17 EEST 2019 ; 00:00:27 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceEtoH.ExpRunMenu_OPEN_RUN_DIRECTORY, "Open Run Directory..."); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// Elapsed time: 20 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:44:17 EEST 2019 ; 00:00:31 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "constrs_1", 1, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:44:17 EEST 2019 ; 00:00:31 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_1", 0, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RESET_RUNS, "Reset Runs"); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// e:g (cd:JFrame): Reset Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "Reset"); // a:JButton (JPanel:JComponent, e:g)
+// HOptionPane Warning: 'Run 'synth_1' appears to be running or queued. Reset anyway? (Reset Runs)'
+// e:g (cd:JFrame): Reset Runs: addNotify
+// bt:g (e:g):  Resetting Runs : addNotify
+selectButton("PAResourceAtoD.DeleteRunsDialog_THERE_SOME_JOBS_THAT_APPEAR_TOBE_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, G:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bt:g (e:g)
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, null, -1, null, -1, false, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger
+selectButton(PAResourceCommand.PACommandNames_DESIGN_AHEAD, "Design Runs_design_ahead"); // y:JideButton (g:CommandBar, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_AHEAD
+// G:g (cd:JFrame): Create New Runs: addNotify
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, G:g)
+dismissDialog("Create New Runs"); // G:g (cd:JFrame)
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Design Runs_search"); // r:JideToggleButton (g:CommandBar, cd:JFrame): TRUE
+closeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+setText("RDIResource.SearchCommandComponent_QUICK_ACCESS", "desig", true); // OverlayTextField:JTextField (DefaultOverlayable:JPanel, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_DESIGN_RUNS_WINDOW
+// Elapsed time: 51 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7vx485tffg1761-2 ; Default settings for Implementation.", 3, "Not started", 2, false); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 2, "constrs_1", 1, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 2, "constrs_1", 1, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2015) ; xc7vx485tffg1761-2 ; Vivado Implementation Defaults", 1, "impl_1", 0, false); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2015) ; xc7vx485tffg1761-2 ; Vivado Implementation Defaults", 1, "impl_1", 0, false); // T:ab (JViewport:JComponent, cd:JFrame)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// e:g (cd:JFrame): Delete Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "Delete"); // a:JButton (JPanel:JComponent, e:g)
+// e:g (cd:JFrame): Delete Runs: addNotify
+// bt:g (e:g):  Deleting Runs : addNotify
+// TclEventType: RUN_DELETE
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,301 MB. GUI used memory: 179 MB. Current time: 6/27/19 4:46:51 PM EEST
+// Engine heap size: 2,301 MB. GUI used memory: 180 MB. Current time: 6/27/19 4:46:52 PM EEST
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: delete_runs "synth_1" 
+// Tcl Message: INFO: [Vivado 12-3261] Dependent run, 'impl_1', will be deleted with parent run, 'synth_1'. 
+// TclEventType: DESIGN_CLOSE
+// TclEventType: RUN_DELETE
+// Tcl Message: delete_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2819.508 ; gain = 0.000 
+// 'c' command handler elapsed time: 6 seconds
+dismissDialog("Deleting Runs"); // bt:g (e:g)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true, false, false, false, false, true); // T:ab (JViewport:JComponent, cd:JFrame) - Double Click - Node
+applyEnter(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, (String) null); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+applyEnter(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, (String) null); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true, false, false, false, false, true); // T:ab (JViewport:JComponent, cd:JFrame) - Double Click - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7vx485tffg1761-2 ; Default settings for Implementation.", 1, "impl_2", 0, false); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2016) ; xc7vx485tffg1761-2 ; Default settings for Implementation.", 1, "impl_2", 0, false); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_PROPERTIES, "Synthesis Run Properties..."); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// Run Command: RDIResourceCommand.RDICommands_PROPERTIES
+closeFrame(RDIResource.RDIViews_PROPERTIES, "Synthesis Run Properties"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // K:H (Workspace:JPanel, cd:JFrame)
+floatView(PAResourceOtoP.PAViews_SYSTEM, "Diagram"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+// PAResourceOtoP.PAViews_SYSTEM: System: float view
+maximizeFrame(PAResourceOtoP.PAViews_SYSTEM, "Diagram"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+unMaximizeFrame(PAResourceOtoP.PAViews_SYSTEM, "Diagram"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+dockFrame(PAResourceOtoP.PAViews_SYSTEM, "Diagram"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 20 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // Y:JMenu (JPopupMenu:JComponent, cd:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // T:JideMenu (CommandMenuBar:CommandBar, cd:JFrame)
+// Elapsed time: 90 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // K:H (Workspace:JPanel, cd:JFrame)
+// Elapsed time: 64 seconds
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 215, 349, 1115, 542, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+unMinimizeFrame(PAResourceOtoP.PAViews_DESIGN_RUNS, "Design Runs"); // as:DockableFrame
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// Tcl Message: launch_runs synth_2 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 27 16:51:11 2019] Launched synth_2... Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// Elapsed time: 23 seconds
+selectTreeTableHeader(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "Modified", 1); // x:ab (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 117 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:51:17 EEST 2019 ; 00:00:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "Running synth_design...", 2, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:51:17 EEST 2019 ; 00:00:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:51:17 EEST 2019 ; 00:00:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true); // T:ab (JViewport:JComponent, cd:JFrame) - Node
+collapseTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:51:17 EEST 2019 ; 00:00:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0); // T:ab (JViewport:JComponent, cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:51:17 EEST 2019 ; 00:00:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true, false, false, false, false, true); // T:ab (JViewport:JComponent, cd:JFrame) - Double Click - Node
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_2 ; constrs_1 ; Running synth_design... ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Thu Jun 27 16:51:17 EEST 2019 ; 00:00:59 ; Vivado Synthesis Defaults (Vivado Synthesis 2016) ; xc7vx485tffg1761-2 ; Vivado Synthesis Defaults", 0, "synth_2", 0, true, false, false, false, true, false); // T:ab (JViewport:JComponent, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceEtoH.ExpRunMenu_CHANGE_RUN_SETTINGS, "Change Run Settings..."); // ab:JMenuItem (ah:JPopupMenu, Popup:JWindow)
+// a:q (cd:JFrame): Design Run Settings: addNotify
+// Elapsed time: 125 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, a:q)
+dismissDialog("Design Run Settings"); // a:q (cd:JFrame)
+selectTreeTable(PAResourceEtoH.ExpReportTreePanel_EXP_REPORT_TREE_TABLE, "synth_2 ;  ;  ; ", 1, "synth_2", 0, true); // x:ab (JViewport:JComponent, cd:JFrame) - Node
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // as:DockableFrame
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Synthesis Run Properties"); // as:DockableFrame
+// Elapsed time: 10 seconds
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 337, 57); // D:bF (J:B, cd:JFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 337, 57); // D:bF (J:B, cd:JFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 337, 57, false, false, false, false, true); // D:bF (J:B, cd:JFrame) - Double Click
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 337, 57); // D:bF (J:B, cd:JFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 337, 57); // D:bF (J:B, cd:JFrame)
+floatView(RDIResource.RDIViews_PROPERTIES, "Synthesis Run Properties"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 650, 264); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 652, 475); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 652, 475); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 557, 506); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 557, 506, false, false, false, false, true); // D:bF (J:B, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 557, 506); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 557, 506, false, false, false, false, true); // D:bF (J:B, FrameFloatingContainer:ResizableFrame) - Double Click
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 557, 506); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 974, 593); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 687, 591); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 600, 597); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 459, 569); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor(PAResourceEtoH.ExpRunPropPanels_MONITOR, 147, 554); // D:bF (J:B, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 16 seconds
+closeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // as:DockableFrame (aA:FrameContainer, FrameFloatingContainer:ResizableFrame)
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (p:JPanel, cd:JFrame)
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.StateMonitor_YOU_ABOUT_TO_CANCEL_YOUR_RUNNING_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_2 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bt:g (cd:JFrame)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // g:JideTabbedPane (L:aE, cd:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd)]", 1, true); // y:i (D:JPanel, cd:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd)]", 1, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd)]", 2, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_RESET_COMPOSITE_FILE, "Reset Output Products..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RESET_COMPOSITE_FILE
+// at:q (cd:JFrame): Reset Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_RESET_OUTPUT_PRODUCTS, "Reset"); // a:JButton (JPanel:JComponent, at:q)
+// bt:g (cd:JFrame):  Managing Output Products : addNotify
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_target all [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: reset_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2819.508 ; gain = 0.000 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects  [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] -sync -no_script -force -quiet 
+// 'bh' command handler elapsed time: 9 seconds
+dismissDialog("Managing Output Products"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, system_wrapper - STRUCTURE (system_wrapper.vhd), system_i - system (system.bd)]", 2, true, false, false, false, true, false); // y:i (D:JPanel, cd:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE, "Generate Output Products..."); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_GENERATE_COMPOSITE_FILE
+// at:q (cd:JFrame): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a:JButton (JPanel:JComponent, at:q)
+// bt:g (cd:JFrame):  Managing Output Products : addNotify
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: generate_target all [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] 
+// Tcl Message: INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_emc_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_3 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_4 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_usb2_device_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block gtxe2_top_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xadc_wiz_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 . INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 . 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Exporting to file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0.hwh 
+// Tcl Message: INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: ARCHITECTURE : virtex7 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: PART : xc7vx485tffg1761-2 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: SPEEDGRADE : -2 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: Standard : 1000BASEX 
+// Tcl Message: Generated Block Design Tcl file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0_bd.tcl Generated Hardware Definition File c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hdl/system_axi_ethernet_0_0.hwdef 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 . INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 . INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr . INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc . INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0_bram . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_refclk . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block bram_test_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_ds . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/auto_cc . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m02_couplers/auto_ds . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/auto_us . INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system.hwh 
+// Tcl Message: INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] test_ip: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide. INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] test_ip: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl Generated Hardware Definition File C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.hwdef 
+// Tcl Message: generate_target: Time (s): cpu = 00:00:59 ; elapsed = 00:10:56 . Memory (MB): peak = 2819.508 ; gain = 0.000 
+// Tcl Message: export_ip_user_files -of_objects [get_files C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet 
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// 'bh' command handler elapsed time: 701 seconds
+// Elapsed time: 697 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a:JButton (JPanel:JComponent, f:q)
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+// Tcl Message: launch_runs synth_2 -jobs 4 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 27 17:09:23 2019] Launched synth_2... Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log 
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 20000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 21000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 22000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 23000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,301 MB. GUI used memory: 130 MB. Current time: 6/27/19 5:16:53 PM EEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 24000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 25000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// Elapsed time: 618 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, system, generate_target all [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd]. , [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(20) - Only lower order bits will be connected.. ]", 28, false); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 11 seconds
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, system, launch_runs impl_2 -to_step write_bitstream -jobs 4. ]", 15); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, system, generate_target all [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd]. ]", 18); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, system, delete_runs synth_1. ]", 16); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, system, validate_bd_design. ]", 10); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, system]", 5); // ah:i (JViewport:JComponent, cd:JFrame)
+collapseTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah:i (JViewport:JComponent, cd:JFrame)
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands]", 0); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bt:g (cd:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd} 
+dismissDialog("Open Block Design"); // bt:g (cd:JFrame)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 7, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// bt:g (cd:JFrame):  Open Block Design : addNotify
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd} 
+dismissDialog("Open Block Design"); // bt:g (cd:JFrame)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+selectView(PAResourceOtoP.PAViews_SYSTEM, "System", 102, 70, 620, 185, false, false, false, true, false); // eW:aE (k:TdiGroup, cd:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN, "Validate Design"); // ab:JMenuItem (ah:JPopupMenu, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_VALIDATE_RSB_DESIGN
+// 'dB' command handler elapsed time: 3 seconds
+// Tcl Command: 'validate_bd_design -force'
+selectButton("PAResourceTtoZ.ValidateRSBDesign_BLOCK_DESIGN_ALREADY_IN_VALIDATED_Rerun Validate Design", "Rerun Validate Design"); // JButton:AbstractButton (JPanel:JComponent, F:JDialog)
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// bt:g (cd:JFrame):  Validate Design : addNotify
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// Tcl Message: validate_bd_design -force 
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_REMOVE_OBJECT
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks. 
+// Tcl Message: INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x60000000 and high address C_DCACHE_HIGHADDR to 0x61FFFFFF. 
+// Tcl Message: INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x60000000 and high address C_ICACHE_HIGHADDR to 0x61FFFFFF. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: validate_bd_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 2819.508 ; gain = 0.000 
+// Elapsed time: 29 seconds
+dismissDialog("Validate Design"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 26 seconds
+selectButton("PAResourceTtoZ.ValidateRSBDesign_VALIDATION_SUCCESSFUL_THERE_NO_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, F:JDialog)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Synthesis Settings]", 16, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SYNTH_SETTINGS
+// Project Settings: addNotify
+// Elapsed time: 13 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 41 seconds
+dismissDialog("Project Settings"); // i:aA (cd:JFrame)
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 26000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 27000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 28000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (J:B Update Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (B:b Update Status Timer) is taking too long to process. Increasing delay to 29000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (J:B Update Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// Elapsed time: 762 seconds
+maximizeFrame(PAResourceOtoP.PAViews_COMPILATION, "Log"); // as:DockableFrame (aA:FrameContainer, cd:JFrame)
+// Elapsed time: 716 seconds
+selectCodeEditor(PAResourceItoN.LogMonitor_MONITOR, 976, 172); // D:bF (JPanel:JComponent, cd:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,301 MB. GUI used memory: 86 MB. Current time: 6/27/19 5:46:57 PM EEST
+// TclEventType: RUN_FAILED
+// ah:y (cd:JFrame): Synthesis Failed: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 44 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:y)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah:y (cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. ]", 1, true); // ah:i (JViewport:JComponent, cd:JFrame) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. ]", 1, true, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. , [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/8479/hdl/axi_clock_converter_v2_1_vl_rfs.v'. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. , [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/8479/hdl/axi_clock_converter_v2_1_vl_rfs.v'. ]", 2, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. , [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/8479/hdl/axi_clock_converter_v2_1_vl_rfs.v'. ]", 2, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. , [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v'. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. , [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v'. ]", 3, false, false, false, false, false, true); // ah:i (JViewport:JComponent, cd:JFrame) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/df1b/hdl/axi_protocol_converter_v2_1_vl_rfs.v'. , [Runs 36-287] File does not exist or is not accessible:'c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ipshared/a4c8/hdl/axi_dwidth_converter_v2_1_vlsyn_rfs.v'. ]", 3, false); // ah:i (JViewport:JComponent, cd:JFrame)
+// Elapsed time: 115 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // u:K (t:D, cd:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f:q (cd:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:q)
+// ai:r (cd:JFrame): Save Project: addNotify
+dismissDialog("Launch Runs"); // f:q (cd:JFrame)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ai:r)
+// bt:g (cd:JFrame):  Save Constraints : addNotify
+dismissDialog("Save Project"); // ai:r (cd:JFrame)
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: save_bd_design 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SAVE_DIAGRAM
+// Tcl Message: Wrote  : <C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd>  
+// bt:g (cd:JFrame):  Resetting Runs : addNotify
+dismissDialog("Save Constraints"); // bt:g (cd:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_2 
+// bt:g (cd:JFrame):  Starting Design Runs : addNotify
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// Tcl Message: launch_runs synth_2 -jobs 4 
+// Tcl Message: INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_SCRIPT_TASK
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd 
+// Tcl Message: Exporting to file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0.hwh 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: ARCHITECTURE : virtex7 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: PART : xc7vx485tffg1761-2 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: SPEEDGRADE : -2 INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: Standard : 1000BASEX 
+// Tcl Message: Generated Block Design Tcl file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0_bd.tcl Generated Hardware Definition File c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hdl/system_axi_ethernet_0_0.hwdef 
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 . 
+// Elapsed time: 28 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bt:g)
+// 'k' command handler elapsed time: 33 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar . INFO: [BD 41-1029] Generation completed for the IP Integrator block bram_test_0 . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_ds . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/auto_cc . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m02_couplers/auto_ds . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/auto_us . 
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_pc . 
+// Tcl Message: Exporting to file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system.hwh 
+// Tcl Message: INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] test_ip: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide. INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] test_ip: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide. 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: Generated Block Design Tcl file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl Generated Hardware Definition File C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.hwdef 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jun 27 17:57:13 2019] Launched synth_2... Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:19 ; elapsed = 00:07:22 . Memory (MB): peak = 2829.969 ; gain = 10.461 
+// Elapsed time: 414 seconds
+dismissDialog("Starting Design Runs"); // bt:g (cd:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 2,301 MB. GUI used memory: 77 MB. Current time: 6/28/19 12:08:17 AM EEST
+// HMemoryUtils.trashcanNow. Engine heap size: 2,301 MB. GUI used memory: 67 MB. Current time: 6/28/19 1:01:57 AM EEST
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 7000 ms.

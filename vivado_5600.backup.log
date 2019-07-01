@@ -1,0 +1,567 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Thu Jun 27 15:36:41 2019
+# Process ID: 5600
+# Current directory: C:/Users/berkaythefair/Documents/VHDL2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9108 C:\Users\berkaythefair\Documents\VHDL2\vc707_bist.xpr
+# Log file: C:/Users/berkaythefair/Documents/VHDL2/vivado.log
+# Journal file: C:/Users/berkaythefair/Documents/VHDL2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/berkaythefair/Documents/VHDL2/gtxe2_top_v1_00_a'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:24 . Memory (MB): peak = 915.844 ; gain = 284.238
+open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd}
+Adding cell -- xilinx.com:user:gtxe2_top:1.0 - gtxe2_top_0
+Adding cell -- xilinx.com:ip:axi_bram_ctrl:4.0 - axi_bram_ctrl_0
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - axi_bram_ctrl_0_bram
+Adding cell -- xilinx.com:ip:axi_emc:3.0 - axi_emc_0
+Adding cell -- xilinx.com:ip:axi_ethernet:7.0 - axi_ethernet_0
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_ethernet_0_dma
+Adding cell -- xilinx.com:ip:clk_wiz:5.3 - axi_ethernet_0_refclk
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_1
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_3
+Adding cell -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_4
+Adding cell -- xilinx.com:ip:axi_iic:2.0 - axi_iic_0
+Adding cell -- xilinx.com:ip:axi_timer:2.0 - axi_timer_0
+Adding cell -- xilinx.com:ip:axi_uart16550:2.0 - axi_uart16550_0
+Adding cell -- xilinx.com:ip:axi_usb2_device:5.0 - axi_usb2_device_0
+Adding cell -- xilinx.com:ip:mdm:3.2 - mdm_1
+Adding cell -- xilinx.com:ip:microblaze:10.0 - microblaze_0
+Adding cell -- xilinx.com:ip:axi_intc:4.1 - microblaze_0_axi_intc
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - microblaze_0_xlconcat
+Adding cell -- xilinx.com:ip:mig_7series:4.0 - mig_7series_0
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_100M
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - rst_mig_7series_0_200M
+Adding cell -- xilinx.com:ip:xadc_wiz:3.3 - xadc_wiz_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding cell -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding cell -- xilinx.com:module_ref:bram_test:1.0 - bram_test_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /mig_7series_0/init_calib_complete(undef) and /rst_mig_7series_0_100M/aux_reset_in(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /mig_7series_0/init_calib_complete(undef) and /rst_mig_7series_0_200M/aux_reset_in(rst)
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding cell -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_ds
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:axi_dwidth_converter:2.1 - auto_us
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - dlmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - dlmb_v10
+Adding cell -- xilinx.com:ip:lmb_bram_if_cntlr:4.0 - ilmb_bram_if_cntlr
+Adding cell -- xilinx.com:ip:lmb_v10:3.0 - ilmb_v10
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.3 - lmb_bram
+Successfully read diagram <system> from BD file <C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd>
+open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 988.215 ; gain = 72.371
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+[Thu Jun 27 15:40:31 2019] Launched synth_2...
+Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log
+[Thu Jun 27 15:40:31 2019] Launched impl_2...
+Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/impl_2/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7vx485tffg1761-2
+INFO: [Netlist 29-17] Analyzing 1544 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7vx485tffg1761-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_emc_0_0/system_axi_emc_0_0_board.xdc] for cell 'system_i/axi_emc_0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_emc_0_0/system_axi_emc_0_0_board.xdc] for cell 'system_i/axi_emc_0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_emc_0_0/system_axi_emc_0_0.xdc] for cell 'system_i/axi_emc_0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_emc_0_0/system_axi_emc_0_0.xdc] for cell 'system_i/axi_emc_0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0_board.xdc] for cell 'system_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/axi_gpio_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_0_0/system_axi_gpio_0_0.xdc] for cell 'system_i/axi_gpio_0/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_1_0/system_axi_gpio_1_0_board.xdc] for cell 'system_i/axi_gpio_1/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_1_0/system_axi_gpio_1_0_board.xdc] for cell 'system_i/axi_gpio_1/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_1_0/system_axi_gpio_1_0.xdc] for cell 'system_i/axi_gpio_1/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_1_0/system_axi_gpio_1_0.xdc] for cell 'system_i/axi_gpio_1/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_3_0/system_axi_gpio_3_0_board.xdc] for cell 'system_i/axi_gpio_3/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_3_0/system_axi_gpio_3_0_board.xdc] for cell 'system_i/axi_gpio_3/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_3_0/system_axi_gpio_3_0.xdc] for cell 'system_i/axi_gpio_3/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_3_0/system_axi_gpio_3_0.xdc] for cell 'system_i/axi_gpio_3/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_4_0/system_axi_gpio_4_0_board.xdc] for cell 'system_i/axi_gpio_4/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_4_0/system_axi_gpio_4_0_board.xdc] for cell 'system_i/axi_gpio_4/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_4_0/system_axi_gpio_4_0.xdc] for cell 'system_i/axi_gpio_4/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_gpio_4_0/system_axi_gpio_4_0.xdc] for cell 'system_i/axi_gpio_4/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_iic_0_0/system_axi_iic_0_0_board.xdc] for cell 'system_i/axi_iic_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_iic_0_0/system_axi_iic_0_0_board.xdc] for cell 'system_i/axi_iic_0/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0.xdc] for cell 'system_i/axi_timer_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_timer_0_0/system_axi_timer_0_0.xdc] for cell 'system_i/axi_timer_0/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_uart16550_0_0/system_axi_uart16550_0_0_board.xdc] for cell 'system_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_uart16550_0_0/system_axi_uart16550_0_0_board.xdc] for cell 'system_i/axi_uart16550_0/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_uart16550_0_0/system_axi_uart16550_0_0.xdc] for cell 'system_i/axi_uart16550_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_uart16550_0_0/system_axi_uart16550_0_0.xdc] for cell 'system_i/axi_uart16550_0/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_usb2_device_0_0/system_axi_usb2_device_0_0.xdc] for cell 'system_i/axi_usb2_device_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_usb2_device_0_0/system_axi_usb2_device_0_0.xdc] for cell 'system_i/axi_usb2_device_0/U0'
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'U0' within module 'system_xadc_wiz_0_0' for instance 'system_i/xadc_wiz_0'. The XDC file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_xadc_wiz_0_0/system_xadc_wiz_0_0.xdc will not be read for this cell.
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0.xdc] for cell 'system_i/microblaze_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_microblaze_0_0/system_microblaze_0_0.xdc] for cell 'system_i/microblaze_0/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_0/bd_4bad_eth_buf_0_board.xdc] for cell 'system_i/axi_ethernet_0/inst/eth_buf/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_0/bd_4bad_eth_buf_0_board.xdc] for cell 'system_i/axi_ethernet_0/inst/eth_buf/U0'
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'U0' within module 'bd_4bad_eth_mac_0' for instance 'system_i/axi_ethernet_0/inst/eth_mac'. The XDC file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_4bad_eth_mac_0_board.xdc will not be read for this cell.
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'U0' within module 'bd_4bad_eth_mac_0' for instance 'system_i/axi_ethernet_0/inst/eth_mac'. The XDC file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_4bad_eth_mac_0.xdc will not be read for this cell.
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'U0' within module 'bd_4bad_pcs_pma_0' for instance 'system_i/axi_ethernet_0/inst/pcs_pma'. The XDC file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_2/bd_4bad_pcs_pma_0_board.xdc will not be read for this cell.
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'U0' within module 'bd_4bad_pcs_pma_0' for instance 'system_i/axi_ethernet_0/inst/pcs_pma'. The XDC file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_2/synth/bd_4bad_pcs_pma_0.xdc will not be read for this cell.
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mig_7series_0_0/system_mig_7series_0_0/user_design/constraints/system_mig_7series_0_0.xdc] for cell 'system_i/mig_7series_0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mig_7series_0_0/system_mig_7series_0_0/user_design/constraints/system_mig_7series_0_0.xdc] for cell 'system_i/mig_7series_0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mig_7series_0_0/system_mig_7series_0_0_board.xdc] for cell 'system_i/mig_7series_0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mig_7series_0_0/system_mig_7series_0_0_board.xdc] for cell 'system_i/mig_7series_0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0.xdc] for cell 'system_i/microblaze_0_local_memory/dlmb_v10/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_dlmb_v10_0/system_dlmb_v10_0.xdc] for cell 'system_i/microblaze_0_local_memory/dlmb_v10/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0.xdc] for cell 'system_i/microblaze_0_local_memory/ilmb_v10/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_ilmb_v10_0/system_ilmb_v10_0.xdc] for cell 'system_i/microblaze_0_local_memory/ilmb_v10/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0.xdc] for cell 'system_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0.xdc] for cell 'system_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc] for cell 'system_i/mdm_1/U0'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc:50]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc:50]
+get_clocks: Time (s): cpu = 00:00:42 ; elapsed = 00:00:39 . Memory (MB): peak = 2369.820 ; gain = 622.375
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_mdm_1_0/system_mdm_1_0.xdc] for cell 'system_i/mdm_1/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_100M_0/system_rst_mig_7series_0_100M_0_board.xdc] for cell 'system_i/rst_mig_7series_0_100M/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_100M_0/system_rst_mig_7series_0_100M_0_board.xdc] for cell 'system_i/rst_mig_7series_0_100M/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_100M_0/system_rst_mig_7series_0_100M_0.xdc] for cell 'system_i/rst_mig_7series_0_100M/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_100M_0/system_rst_mig_7series_0_100M_0.xdc] for cell 'system_i/rst_mig_7series_0_100M/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_dma_0/system_axi_ethernet_0_dma_0.xdc] for cell 'system_i/axi_ethernet_0_dma/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_dma_0/system_axi_ethernet_0_dma_0.xdc] for cell 'system_i/axi_ethernet_0_dma/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_refclk_0/system_axi_ethernet_0_refclk_0_board.xdc] for cell 'system_i/axi_ethernet_0_refclk/inst'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_refclk_0/system_axi_ethernet_0_refclk_0_board.xdc] for cell 'system_i/axi_ethernet_0_refclk/inst'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_refclk_0/system_axi_ethernet_0_refclk_0.xdc] for cell 'system_i/axi_ethernet_0_refclk/inst'
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_refclk_0/system_axi_ethernet_0_refclk_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 2388.949 ; gain = 19.063
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_refclk_0/system_axi_ethernet_0_refclk_0.xdc] for cell 'system_i/axi_ethernet_0_refclk/inst'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_200M_0/system_rst_mig_7series_0_200M_0_board.xdc] for cell 'system_i/rst_mig_7series_0_200M/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_200M_0/system_rst_mig_7series_0_200M_0_board.xdc] for cell 'system_i/rst_mig_7series_0_200M/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_200M_0/system_rst_mig_7series_0_200M_0.xdc] for cell 'system_i/rst_mig_7series_0_200M/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_rst_mig_7series_0_200M_0/system_rst_mig_7series_0_200M_0.xdc] for cell 'system_i/rst_mig_7series_0_200M/U0'
+Parsing XDC File [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc]
+WARNING: [Vivado 12-584] No ports matched 'leds(0)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:103]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:103]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(0)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(1)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(1)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(2)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(2)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(3)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(3)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(4)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(4)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(5)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(5)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(6)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(6)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(7)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds(7)'. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/constrs_1/imports/vc707_bist/system.xdc]
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_usb2_device_0_0/system_axi_usb2_device_0_0_clocks.xdc] for cell 'system_i/axi_usb2_device_0/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_usb2_device_0_0/system_axi_usb2_device_0_0_clocks.xdc] for cell 'system_i/axi_usb2_device_0/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_0/synth/bd_4bad_eth_buf_0.xdc] for cell 'system_i/axi_ethernet_0/inst/eth_buf/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_0/synth/bd_4bad_eth_buf_0.xdc] for cell 'system_i/axi_ethernet_0/inst/eth_buf/U0'
+CRITICAL WARNING: [Designutils 20-1275] Could not find cell 'U0' within module 'bd_4bad_eth_mac_0' for instance 'system_i/axi_ethernet_0/inst/eth_mac'. The XDC file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/ip/ip_1/synth/bd_4bad_eth_mac_0_clocks.xdc will not be read for this cell.
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_clocks.xdc] for cell 'system_i/microblaze_0_axi_intc/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_microblaze_0_axi_intc_0/system_microblaze_0_axi_intc_0_clocks.xdc] for cell 'system_i/microblaze_0_axi_intc/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_dma_0/system_axi_ethernet_0_dma_0_clocks.xdc] for cell 'system_i/axi_ethernet_0_dma/U0'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_dma_0/system_axi_ethernet_0_dma_0_clocks.xdc] for cell 'system_i/axi_ethernet_0_dma/U0'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_clocks.xdc] for cell 'system_i/axi_mem_intercon/m00_couplers/auto_ds/inst'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_ds_0/system_auto_ds_0_clocks.xdc] for cell 'system_i/axi_mem_intercon/m00_couplers/auto_ds/inst'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_cc_0/system_auto_cc_0_clocks.xdc] for cell 'system_i/axi_mem_intercon/m01_couplers/auto_cc/inst'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_cc_0/system_auto_cc_0_clocks.xdc] for cell 'system_i/axi_mem_intercon/m01_couplers/auto_cc/inst'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_0/system_auto_us_0_clocks.xdc] for cell 'system_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_0/system_auto_us_0_clocks.xdc] for cell 'system_i/axi_mem_intercon/s00_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_1/system_auto_us_1_clocks.xdc] for cell 'system_i/axi_mem_intercon/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_1/system_auto_us_1_clocks.xdc] for cell 'system_i/axi_mem_intercon/s01_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_2/system_auto_us_2_clocks.xdc] for cell 'system_i/axi_mem_intercon/s02_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_2/system_auto_us_2_clocks.xdc] for cell 'system_i/axi_mem_intercon/s02_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_3/system_auto_us_3_clocks.xdc] for cell 'system_i/axi_mem_intercon/s03_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_3/system_auto_us_3_clocks.xdc] for cell 'system_i/axi_mem_intercon/s03_couplers/auto_us/inst'
+Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_4/system_auto_us_4_clocks.xdc] for cell 'system_i/axi_mem_intercon/s04_couplers/auto_us/inst'
+Finished Parsing XDC File [c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_auto_us_4/system_auto_us_4_clocks.xdc] for cell 'system_i/axi_mem_intercon/s04_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Generating merged BMM file for the design top 'system_wrapper'...
+INFO: [Memdata 28-144] Successfully populated the BRAM INIT strings from the following elf files: c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_microblaze_0_0/data/mb_bootloop_le.elf 
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 731 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 27 instances
+  IOBUFDS_DIFF_OUT_DCIEN => IOBUFDS_DIFF_OUT_DCIEN (IBUFDS_IBUFDISABLE_INT, IBUFDS_IBUFDISABLE_INT, INV, OBUFTDS_DCIEN, OBUFTDS_DCIEN): 8 instances
+  IOBUF_DCIEN => IOBUF_DCIEN (IBUF_IBUFDISABLE, OBUFT_DCIEN): 64 instances
+  LUT6_2 => LUT6_2 (LUT5, LUT6): 64 instances
+  OBUFDS => OBUFDS: 2 instances
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS, OBUFDS): 1 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 460 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 32 instances
+  RAM64M => RAM64M (RAMD64E, RAMD64E, RAMD64E, RAMD64E): 32 instances
+  RAM64X1D => RAM64X1D (RAMD64E, RAMD64E): 8 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 1 instances
+
+open_run: Time (s): cpu = 00:02:29 ; elapsed = 00:02:15 . Memory (MB): peak = 2393.164 ; gain = 1386.328
+open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd}
+reset_run synth_2
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+startgroup
+set_property -dict [list CONFIG.NUM_MI {14}] [get_bd_cells microblaze_0_axi_periph]
+delete_bd_objs [get_bd_intf_nets microblaze_0_axi_periph_M14_AXI]
+endgroup
+apply_bd_automation -rule xilinx.com:bd_rule:axi4 -config {Master "/microblaze_0 (Cached)" Clk "Auto" }  [get_bd_intf_pins axi_emc_0/S_AXI_MEM]
+</axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </axi_ethernet_0_dma/Data_MM2S> at <0x60000000 [ 32M ]>
+</axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </axi_ethernet_0_dma/Data_S2MM> at <0x60000000 [ 32M ]>
+</axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </axi_ethernet_0_dma/Data_SG> at <0x60000000 [ 32M ]>
+</axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </microblaze_0/Data> at <0x60000000 [ 32M ]>
+</axi_emc_0/S_AXI_MEM/MEM0> is being mapped into </microblaze_0/Instruction> at <0x60000000 [ 32M ]>
+validate_bd_design
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutclk_out(clk) and /pcs_pma/gt0_qplloutclk_out(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutrefclk_out(clk) and /pcs_pma/gt0_qplloutrefclk_out(undef)
+CRITICAL WARNING: [BD 41-1356] Address block </microblaze_0_axi_intc/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </mdm_1/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_iic_0/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_uart16550_0/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_gpio_0/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_gpio_1/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_gpio_3/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_gpio_4/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_timer_0/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_usb2_device_0/S_AXI/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </xadc_wiz_0/s_axi_lite/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_ethernet_0/s_axi/Reg0> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_ethernet_0_dma/S_AXI_LITE/Reg> is not mapped into </microblaze_0/Data>. Please use Address Editor to either map or exclude it.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The D-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_DC segment 0xC0000000-0xC00FFFFF, which prevents this M_AXI_DC segment from being accessed by the cache. To resolve this issue assign parameters C_DCACHE_BASEADDR and C_DCACHE_HIGHADDR manually, or modify the address map.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The D-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_DC segment 0x80000000-0xBFFFFFFF, which prevents this M_AXI_DC segment from being accessed by the cache. To resolve this issue assign parameters C_DCACHE_BASEADDR and C_DCACHE_HIGHADDR manually, or modify the address map.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x60000000 and high address C_DCACHE_HIGHADDR to 0x61FFFFFF.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The I-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_IC segment 0xC0000000-0xC00FFFFF, which prevents this M_AXI_IC segment from being accessed by the cache. To resolve this issue assign parameters C_ICACHE_BASEADDR and C_ICACHE_HIGHADDR manually, or modify the address map.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The I-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_IC segment 0x80000000-0xBFFFFFFF, which prevents this M_AXI_IC segment from being accessed by the cache. To resolve this issue assign parameters C_ICACHE_BASEADDR and C_ICACHE_HIGHADDR manually, or modify the address map.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x60000000 and high address C_ICACHE_HIGHADDR to 0x61FFFFFF.
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_clk_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_rst_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+validate_bd_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:26 . Memory (MB): peak = 2621.973 ; gain = 35.293
+assign_bd_address
+</axi_ethernet_0/s_axi/Reg0> is being mapped into </microblaze_0/Data> at <0x40C00000 [ 256K ]>
+</axi_ethernet_0_dma/S_AXI_LITE/Reg> is being mapped into </microblaze_0/Data> at <0x41E00000 [ 64K ]>
+</axi_gpio_0/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x40000000 [ 64K ]>
+</axi_gpio_1/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x40010000 [ 64K ]>
+</axi_gpio_3/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x40020000 [ 64K ]>
+</axi_gpio_4/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x40030000 [ 64K ]>
+</axi_iic_0/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x40800000 [ 64K ]>
+</axi_timer_0/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x41C00000 [ 64K ]>
+</axi_uart16550_0/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x44A00000 [ 64K ]>
+</axi_usb2_device_0/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x44800000 [ 64K ]>
+</mdm_1/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x41400000 [ 4K ]>
+</microblaze_0_axi_intc/S_AXI/Reg> is being mapped into </microblaze_0/Data> at <0x41200000 [ 64K ]>
+</xadc_wiz_0/s_axi_lite/Reg> is being mapped into </microblaze_0/Data> at <0x44A10000 [ 64K ]>
+validate_bd_design
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutclk_out(clk) and /pcs_pma/gt0_qplloutclk_out(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutrefclk_out(clk) and /pcs_pma/gt0_qplloutrefclk_out(undef)
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The D-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_DC segment 0xC0000000-0xC00FFFFF, which prevents this M_AXI_DC segment from being accessed by the cache. To resolve this issue assign parameters C_DCACHE_BASEADDR and C_DCACHE_HIGHADDR manually, or modify the address map.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The D-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_DC segment 0x80000000-0xBFFFFFFF, which prevents this M_AXI_DC segment from being accessed by the cache. To resolve this issue assign parameters C_DCACHE_BASEADDR and C_DCACHE_HIGHADDR manually, or modify the address map.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x60000000 and high address C_DCACHE_HIGHADDR to 0x61FFFFFF.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The I-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_IC segment 0xC0000000-0xC00FFFFF, which prevents this M_AXI_IC segment from being accessed by the cache. To resolve this issue assign parameters C_ICACHE_BASEADDR and C_ICACHE_HIGHADDR manually, or modify the address map.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The I-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_IC segment 0x80000000-0xBFFFFFFF, which prevents this M_AXI_IC segment from being accessed by the cache. To resolve this issue assign parameters C_ICACHE_BASEADDR and C_ICACHE_HIGHADDR manually, or modify the address map.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x60000000 and high address C_ICACHE_HIGHADDR to 0x61FFFFFF.
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_clk_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_rst_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+validate_bd_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 2688.652 ; gain = 0.000
+save_bd_design
+Wrote  : <C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd> 
+Wrote  : <C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ui/bd_c954508f.ui> 
+launch_runs impl_2 -to_step write_bitstream -jobs 4
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutclk_out(clk) and /pcs_pma/gt0_qplloutclk_out(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutrefclk_out(clk) and /pcs_pma/gt0_qplloutrefclk_out(undef)
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_clk_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_rst_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(20) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd
+VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_emc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_usb2_device_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block gtxe2_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xadc_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+Exporting to file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0.hwh
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: ARCHITECTURE : virtex7
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: PART : xc7vx485tffg1761-2
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: SPEEDGRADE : -2
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: Standard : 1000BASEX
+Generated Block Design Tcl file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0_bd.tcl
+Generated Hardware Definition File c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hdl/system_axi_ethernet_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_refclk .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bram_test_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m02_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_pc .
+Exporting to file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system.hwh
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] test_ip: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] test_ip: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+Generated Block Design Tcl file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.hwdef
+[Thu Jun 27 16:30:59 2019] Launched synth_2...
+Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log
+[Thu Jun 27 16:30:59 2019] Launched impl_2...
+Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/impl_2/runme.log
+launch_runs: Time (s): cpu = 00:00:20 ; elapsed = 00:08:04 . Memory (MB): peak = 2803.258 ; gain = 114.605
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd" into library xil_defaultlib [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd" into library xil_defaultlib [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd:1]
+[Thu Jun 27 16:44:10 2019] Launched synth_1...
+Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_1/runme.log
+reset_run synth_2 -prev_step 
+reset_run synth_1
+delete_runs "synth_1"
+INFO: [Vivado 12-3261] Dependent run, 'impl_1', will be deleted with parent run, 'synth_1'.
+delete_runs: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2819.508 ; gain = 0.000
+launch_runs synth_2 -jobs 4
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd" into library xil_defaultlib [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd" into library xil_defaultlib [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd:1]
+[Thu Jun 27 16:51:11 2019] Launched synth_2...
+Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log
+reset_run synth_2
+reset_target all [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd]
+reset_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 2819.508 ; gain = 0.000
+export_ip_user_files -of_objects  [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] -sync -no_script -force -quiet
+generate_target all [get_files  C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutclk_out(clk) and /pcs_pma/gt0_qplloutclk_out(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutrefclk_out(clk) and /pcs_pma/gt0_qplloutrefclk_out(undef)
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_clk_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_rst_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(20) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd
+VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_emc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+WARNING: [IP_Flow 19-650] IP license key 'axi_usb2_device@2013.10' is enabled with a Hardware_Evaluation license.
+WARNING: [IP_Flow 19-650] IP license key 'axi_usb2_device@2013.10' is enabled with a Hardware_Evaluation license.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_usb2_device_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block gtxe2_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xadc_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'eth_avb_endpoint@2015.04' is enabled with a Design_Linking license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Hardware_Evaluation license.
+WARNING: [IP_Flow 19-650] IP license key 'tri_mode_eth_mac@2015.04' is enabled with a Hardware_Evaluation license.
+Exporting to file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0.hwh
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: ARCHITECTURE : virtex7
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: PART : xc7vx485tffg1761-2
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: SPEEDGRADE : -2
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: Standard : 1000BASEX
+Generated Block Design Tcl file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0_bd.tcl
+Generated Hardware Definition File c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hdl/system_axi_ethernet_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_refclk .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bram_test_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m02_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_pc .
+Exporting to file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system.hwh
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] test_ip: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] test_ip: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+Generated Block Design Tcl file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.hwdef
+generate_target: Time (s): cpu = 00:00:59 ; elapsed = 00:10:56 . Memory (MB): peak = 2819.508 ; gain = 0.000
+export_ip_user_files -of_objects [get_files C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd] -directory C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.ip_user_files -ipstatic_source_dir C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.cache/compile_simlib/modelsim} {questa=C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.cache/compile_simlib/questa} {riviera=C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.cache/compile_simlib/riviera} {activehdl=C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_runs synth_2 -jobs 4
+[Thu Jun 27 17:09:23 2019] Launched synth_2...
+Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log
+open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd}
+open_bd_design {C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd}
+validate_bd_design -force
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutclk_out(clk) and /pcs_pma/gt0_qplloutclk_out(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutrefclk_out(clk) and /pcs_pma/gt0_qplloutrefclk_out(undef)
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+INFO: [xilinx.com:ip:axi_intc:4.1-1] /microblaze_0_axi_intc: The AXI INTC core has been configured to operate with synchronous clocks.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The D-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_DC segment 0xC0000000-0xC00FFFFF, which prevents this M_AXI_DC segment from being accessed by the cache. To resolve this issue assign parameters C_DCACHE_BASEADDR and C_DCACHE_HIGHADDR manually, or modify the address map.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The D-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_DC segment 0x80000000-0xBFFFFFFF, which prevents this M_AXI_DC segment from being accessed by the cache. To resolve this issue assign parameters C_DCACHE_BASEADDR and C_DCACHE_HIGHADDR manually, or modify the address map.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting D-cache cacheable area base address C_DCACHE_BASEADDR to 0x60000000 and high address C_DCACHE_HIGHADDR to 0x61FFFFFF.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The I-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_IC segment 0xC0000000-0xC00FFFFF, which prevents this M_AXI_IC segment from being accessed by the cache. To resolve this issue assign parameters C_ICACHE_BASEADDR and C_ICACHE_HIGHADDR manually, or modify the address map.
+WARNING: [xilinx.com:ip:microblaze:10.0-14] /microblaze_0: The I-cache cacheable segment 0x60000000 - 0x61FFFFFF does not include the M_AXI_IC segment 0x80000000-0xBFFFFFFF, which prevents this M_AXI_IC segment from being accessed by the cache. To resolve this issue assign parameters C_ICACHE_BASEADDR and C_ICACHE_HIGHADDR manually, or modify the address map.
+INFO: [xilinx.com:ip:microblaze:10.0-16] /microblaze_0: Setting I-cache cacheable area base address C_ICACHE_BASEADDR to 0x60000000 and high address C_ICACHE_HIGHADDR to 0x61FFFFFF.
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_clk_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_rst_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+validate_bd_design: Time (s): cpu = 00:00:24 ; elapsed = 00:00:30 . Memory (MB): peak = 2819.508 ; gain = 0.000
+save_bd_design
+Wrote  : <C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/system.bd> 
+reset_run synth_2
+launch_runs synth_2 -jobs 4
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutclk_out(clk) and /pcs_pma/gt0_qplloutclk_out(undef)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gt0_qplloutrefclk_out(clk) and /pcs_pma/gt0_qplloutrefclk_out(undef)
+INFO: [BD 41-1662] The design 'system.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_clk_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-1271] The connection to the pin: /axi_bram_ctrl_0/bram_rst_a has been overridden by the user. This pin will not be connected as a part of the interface connection: axi_bram_ctrl_0_BRAM_PORTA 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_bram_ctrl_0_bram/addra'(32) to net 'axi_bram_ctrl_0_BRAM_PORTA_ADDR'(20) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd
+VHDL Output written to : C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_emc_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_3 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_gpio_4 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_iic_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_timer_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_uart16550_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_usb2_device_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block gtxe2_top_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xadc_wiz_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block xlconstant_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0 .
+Exporting to file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0.hwh
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: ARCHITECTURE : virtex7
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: PART : xc7vx485tffg1761-2
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: SPEEDGRADE : -2
+INFO: [xilinx.com:ip:gig_ethernet_pcs_pma:16.0-98989] test_ip: Standard : 1000BASEX
+Generated Block Design Tcl file c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hw_handoff/system_axi_ethernet_0_0_bd.tcl
+Generated Hardware Definition File c:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/ip/system_axi_ethernet_0_0/bd_0/hdl/system_axi_ethernet_0_0.hwdef
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mig_7series_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_v10 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/dlmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/ilmb_bram_if_cntlr .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_local_memory/lmb_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_intc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_xlconcat .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block mdm_1 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_100M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_bram_ctrl_0_bram .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_dma .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_ethernet_0_refclk .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block rst_mig_7series_0_200M .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block bram_test_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m00_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m01_couplers/auto_cc .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/m02_couplers/auto_ds .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s00_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s01_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s02_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s03_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_mem_intercon/s04_couplers/auto_us .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block microblaze_0_axi_periph/m10_couplers/auto_pc .
+Exporting to file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system.hwh
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-2] test_ip: In IP Integrator, please note that memory depth value gets calculated based on the Data Width of the IP and Address range selected in the Address Editor.Incase a validation error occured on the range of this parameter, please check if the selected Data width and the Address Range are valid. For valid Data width and memory depth values, please refer to the AXI BRAM Controller Product Guide.
+INFO: [xilinx.com:ip:axi_bram_ctrl:4.0-1] test_ip: In IP Integrator, The Maximum address range supported is 2G. Selecting the address range more than 2G in the address editor may resets the value of Memory depth to default value (1024). please refer to the AXI BRAM Controller Product Guide.
+Generated Block Design Tcl file C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hw_handoff/system_bd.tcl
+Generated Hardware Definition File C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.hwdef
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd" into library xil_defaultlib [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system_wrapper.vhd:1]
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd" into library xil_defaultlib [C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.srcs/sources_1/bd/system/hdl/system.vhd:1]
+[Thu Jun 27 17:57:13 2019] Launched synth_2...
+Run output will be captured here: C:/Users/berkaythefair/Documents/VHDL2/vc707_bist.runs/synth_2/runme.log
+launch_runs: Time (s): cpu = 00:00:19 ; elapsed = 00:07:22 . Memory (MB): peak = 2829.969 ; gain = 10.461
